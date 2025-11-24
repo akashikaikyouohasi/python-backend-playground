@@ -18,16 +18,16 @@
 
 | タスク | 状態 | 成果物 | 完了日 | メモ |
 |--------|------|--------|--------|------|
-| uvセットアップ | ✅ | `pyproject.toml`, `uv.lock` | - | |
-| プロジェクト初期化 | ⬜ | プロジェクト構造 | - | |
-| Docker Compose設定 | ⬜ | `docker-compose.yml` | - | |
-| VS Code設定 | ⬜ | `.vscode/settings.json` | - | |
+| uvセットアップ | ✅ | `pyproject.toml`, `uv.lock` | 2025-11-22 | Python 3.12設定済み |
+| プロジェクト初期化 | ✅ | プロジェクト構造 | 2025-11-22 | src/, tests/構造作成 |
+| Docker Compose設定 | ✅ | `docker-compose.yml` | 2025-11-24 | PostgreSQL + Redis設定 |
+| VS Code設定 | ✅ | `.vscode/settings.json` | 2025-11-22 | |
 
 #### Python基礎強化
 
 | タスク | 状態 | 成果物 | 完了日 | メモ |
 |--------|------|--------|--------|------|
-| 型ヒント実践 | ⬜ | サンプルコード | - | |
+| 型ヒント実践 | 🚧 | `src/sample/sample.py` | - | サンプル関数実装中 |
 | ジェネリクス・Protocol | ⬜ | サンプルコード | - | |
 | Pydanticモデル定義 | ⬜ | `src/schemas/` | - | |
 | データクラス理解 | ⬜ | 比較ドキュメント | - | |
@@ -37,11 +37,11 @@
 
 | タスク | 状態 | 成果物 | 完了日 | メモ |
 |--------|------|--------|--------|------|
-| pre-commitフック | ⬜ | `.pre-commit-config.yaml` | - | |
-| Ruff導入 | ⬜ | `pyproject.toml` (ruff設定) | - | |
-| Pyright導入 | ⬜ | `pyrightconfig.json` | - | |
-| pytest設定 | ⬜ | `pyproject.toml`, `tests/` | - | |
-| Makefile作成 | ⬜ | `Makefile` | - | |
+| pre-commitフック | ⬜ | `.pre-commit-config.yaml` | - | 未設定 |
+| Ruff導入 | ✅ | `pyproject.toml` (ruff>=0.14.6) | 2025-11-22 | lint/format対応 |
+| Pyright導入 | ✅ | `pyproject.toml` (pyright>=1.1.407) | 2025-11-22 | 型チェック設定済み |
+| pytest設定 | ✅ | `pyproject.toml`, `tests/sample/` | 2025-11-24 | カバレッジ設定済み |
+| Makefile作成 | ✅ | `Makefile` | 2025-11-24 | test, lint, format等のコマンド |
 
 ### Week 3-4: FastAPI基礎とDB設計
 
