@@ -13,8 +13,10 @@ add:
 
 # 各種チェック
 test:
-	echo "test"
+	echo "テスト実行"
+	uv run pytest
 test-cov:
+	echo "カバレッジ付きテスト実行"
 	echo "test-cov"
 lint:
 	echo "RuffでLint"

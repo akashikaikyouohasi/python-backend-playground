@@ -11,3 +11,10 @@ dependencies = [
     "pytest-cov>=7.0.0",
     "ruff>=0.14.6",
 ]
+
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib" # 
+pythonpath = "." # srcディレクトリは、srcパスを含める必要がある
+testpaths = ["tests"]
+
