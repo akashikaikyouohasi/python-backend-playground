@@ -20,10 +20,11 @@ test-cov:
 	echo "test-cov"
 lint:
 	echo "RuffでLint"
-	echo "lint"
+	uv run ruff check
+	uv run ruff check --fix
 format:
 	echo "Ruffでformat"
-	echo "format"
+	uv run ruff format
 typecheck:
 	echo "pyrightで型チェック"
 	echo "typecheck"

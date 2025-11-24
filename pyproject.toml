@@ -18,3 +18,24 @@ addopts = "--import-mode=importlib" #
 pythonpath = "." # srcディレクトリは、srcパスを含める必要がある
 testpaths = ["tests"]
 
+[tool.ruff]
+# RuffがチェックするPythonのバージョン
+target-version = "py312"
+# Set the maximum line length to 79.
+line-length = 79
+# チェック対象外とするフォルダやファイル
+exclude = [
+    ".git",
+    "__pycache__",
+    "venv",
+    "docs",
+]
+
+[tool.ruff.lint]
+ignore = [
+    "E501",  # 行の長さ(line-length)のチェックを無効化 (フォーマッターに任せるため)
+]
+
+[tool.ruff.format]
+# フォーマッターの設定（通常はデフォルトでOK）
+# docstring-code-line-length = 88
