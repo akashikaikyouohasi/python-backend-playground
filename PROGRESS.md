@@ -18,7 +18,7 @@
 
 | タスク | 状態 | 成果物 | 完了日 | メモ |
 |--------|------|--------|--------|------|
-| uvセットアップ | ⬜ | `pyproject.toml`, `uv.lock` | - | |
+| uvセットアップ | ✅ | `pyproject.toml`, `uv.lock` | - | |
 | プロジェクト初期化 | ⬜ | プロジェクト構造 | - | |
 | Docker Compose設定 | ⬜ | `docker-compose.yml` | - | |
 | VS Code設定 | ⬜ | `.vscode/settings.json` | - | |
