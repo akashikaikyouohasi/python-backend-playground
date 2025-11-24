@@ -1,4 +1,5 @@
-## 環境セットアップ
+## ローカル開発環境
+### 環境セットアップ
 まずは、uvコマンドのセットアップから行いましょう
 ```
 # uv コマンドのインストール
@@ -10,5 +11,17 @@ uv --version
 
 その後に、`make init`でこの環境セットアップ
 
+### 構成
+- python実行はuv仮想環境
+- DBとRedisはDocker環境
 
 
+## 参考リンク
+- uv
+    - https://docs.astral.sh/uv/
+- ruff
+    - https://docs.astral.sh/ruff/
+- FastAPI
+    - https://fastapi.tiangolo.com/ja/
+- pyright
+    - https://microsoft.github.io/pyright/#/
