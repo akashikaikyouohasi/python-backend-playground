@@ -27,10 +27,13 @@ format:
 	uv run ruff format
 typecheck:
 	echo "pyrightで型チェック"
-	echo "typecheck"
+	uv run pyright
 check:
 	echo "lint + typecheck + test を実行"
-	echo "check"
+	make lint
+	make format
+	make typecheck
+	make test 
 
 # マイグレーション実行
 migrate:

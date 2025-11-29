@@ -39,3 +39,18 @@ ignore = [
 [tool.ruff.format]
 # フォーマッターの設定（通常はデフォルトでOK）
 # docstring-code-line-length = 88
+
+[tool.pyright]
+include = ["src"]  # チェック対象ディレクトリ
+exclude = [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/tests",  # 最初はテストは除外してもOK
+]
+
+# 基本的な型チェックレベル
+typeCheckingMode = "basic"  # "off", "basic", "standard", "strict"
+
+# Python バージョン
+pythonVersion = "3.12"
+pythonPlatform = "Linux"

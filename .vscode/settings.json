@@ -3,5 +3,8 @@
     "[makefile]": {
         "editor.insertSpaces": false,
         "editor.detectIndentation": false
-    } 
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true
 }

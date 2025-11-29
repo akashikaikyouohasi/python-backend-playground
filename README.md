@@ -16,6 +16,10 @@ uv --version
 - DBとRedisはDocker環境
 
 
+### テストについて
+- ファイル名は、test_*.pyまたは*_test.pyで作成すること
+- 
+
 ## 参考リンク
 - uv
     - https://docs.astral.sh/uv/

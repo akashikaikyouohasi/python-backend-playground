@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "ms-python.python",           // Python基本拡張
+        "ms-python.vscode-pylance",   // 型チェック・補完
+    ]
+}
